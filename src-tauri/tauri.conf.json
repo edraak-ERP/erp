@@ -1,0 +1,32 @@
+{
+  "build": {
+    "distDir": "../dist",
+    "devPath": "http://localhost:3000"
+  },
+  "tauri": {
+    "embeddedServer": {
+      "active": true
+    },
+    "allowlist": {
+      "fs": {
+        "scope": ["$HOME/Edrak/**/*"]
+      },
+      "shell": {
+        "open": true
+      }
+    },
+    "security": {
+      "csp": "default-src 'self'"
+    },
+    "windows": [
+      {
+        "title": "إدراك",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false,
+        "decorations": true
+      }
+    ]
+  }
+}
