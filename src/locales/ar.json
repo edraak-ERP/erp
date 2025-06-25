@@ -1,0 +1,29 @@
+{
+  ...,
+  "graph": {
+    "title": "خريطة المعرفة"
+  },
+  "database": {
+    "creatorTitle": "منشئ قواعد البيانات",
+    "dbName": "اسم قاعدة البيانات",
+    "dbNamePlaceholder": "أدخل اسم قاعدة البيانات",
+    "fieldsTitle": "الحقول",
+    "fieldNamePlaceholder": "اسم الحقل",
+    "text": "نص",
+    "number": "رقم",
+    "date": "تاريخ",
+    "checkbox": "خانة اختيار",
+    "select": "قائمة اختيار",
+    "remove": "إزالة",
+    "addField": "إضافة حقل",
+    "create": "إنشاء قاعدة بيانات",
+    "createdTitle": "تم الإنشاء!",
+    "createdMessage": "تم إنشاء قاعدة البيانات '{name}' بنجاح."
+  },
+  "ai": {
+    "promptPlaceholder": "اكتب أمراً للذكاء الاصطناعي...",
+    "generate": "توليد",
+    "summarize": "تلخيص الملاحظة",
+    "analyze": "تحليل الروابط"
+  }
+}
