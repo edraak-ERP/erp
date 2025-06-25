@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4361ee;
+  --primary-dark: #3a56d4;
+}
+
+body {
+  @apply bg-gray-50 rtl font-arabic;
+  direction: rtl;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+/* تخصيص شريط التمرير للمتصفحات التي تدعمه */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400;
+}
